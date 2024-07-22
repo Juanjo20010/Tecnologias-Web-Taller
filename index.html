@@ -1,52 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset='utf-8'>
     <title>Impacto de las Tecnologías Web en la Sociedad y los Negocios</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script defer src="script.js"></script>
 </head>
 
 <body>
-    <header>
-        <div>
-            <img src="img/logo.png" alt="Logo Empresa">
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="secundaria/videos.html">Videos</a></li>
-                <li><a href="secundaria/contacto.html">Contacto</a></li>
-                <li><a href="secundaria/bibliografia.html">Bibliografía</a></li>
-            </ul>
-        </nav>
+        <a href="index.html"><img src="img/logo.png" alt="Logo Empresa"></a>
+        <div class="menu" id="menu">
+            <a href="#ia">Inteligencia Artificial</a>
+            <a href="#iot">Internet de las Cosas</a>
+            <a href="#nube">Computación en la Nube</a>
+            <a href="#ciberseguridad">Ciberseguridad</a>
+            <a href="#blockchain">Blockchain</a>
+            <a href="#arvr">Realidad Aumentada y Virtual</a>
+            <a href="#bigdata">Big Data</a>
+            <a href="#5g">5G</a>
+            <a href="secundaria/videos.html">Videos</a>
+            <a href="secundaria/contacto.html">Contacto</a>
+            <a href="secundaria/bibliografia.html">Bibliografía</a>
+        </div>
+    </nav>
+    <header>
+        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
     </header>
     <section>
-        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
-        <img src="img/internet-of-things.jpeg">
-        <article>
-            <p>
-                A medida que la tecnología avanza, los negocios necesitan mejorar e implementar continuamente mejoras en
-                sus sistemas y servicios, pero, ¿Cuáles son estas nuevas tecnologías que compiten en el mercado actual?
-            </p>
-        </article>
-        <ul>
-            <li>Inteligencia artificial
+        <main>
+            <section id="intro">
+                <img src="img/internet-of-things.jpeg" alt="Introducción a las Tecnologías Web">
+                <article>
+                    <h2>Tecnologías emergentes</h2>
+                    <p>
+                        A medida que la tecnología avanza, los negocios necesitan implementar continuamente mejoras en
+                        sus sistemas y servicios, pero, ¿Cuáles son estas nuevas tecnologías que compiten en el mercado
+                        actual?
+
+                        Las tecnologías web han transformado profundamente la sociedad y los negocios en las últimas
+                        décadas. Desde la inteligencia artificial hasta la computación en la nube, estas innovaciones
+                        están cambiando la forma en que vivimos y trabajamos, ofreciendo nuevas oportunidades y
+                        desafíos. A continuación, exploraremos el impacto de algunas de las tecnologías web más
+                        influyentes en el mundo actual.
+                    </p>
+                </article>
+            </section>
+            <section id="ia">
+                <h2>Inteligencia artificial</h2>
+                <img src="img/ia.png" alt="Blockchain">
                 <p>
                     Uno de los temas en tendencia de la actualidad, donde los programas que utilizan IA pueden
                     realizar tareas automaticamente. Esto ha ayudado a muchos negocios ya que con chatbots las
                     empresas pueden dar información al instante o escalar los temas a los empleados.
                 </p>
-            </li>
-            <li>Internet de las cosas
+            </section>
+            <section id="iot">
+                <h2>Internet de las cosas</h2>
+                <img src="img/iot.png" alt="Blockchain">
                 <p>
                     Son dispositivos conectados a internet, de uso del hogar o industrial donde los dispositivos pueden
                     almacenar información, moniterear areas o personas, o realizar acciones como accionar maquinaria o
                     encender luces, mejorando la producción o automatizando acciones del hogar.
                 </p>
-            </li>
-            <li>Computación en la nube
+            </section>
+            <section id="nube">
+                <h2>Computación en la nube</h2>
+                <img src="img/nube.jpeg" alt="Blockchain">
                 <p>
                     Es la práctica donde se utilizan servidores remotos para almacenar, administrar y procesar la
                     información.
@@ -55,8 +82,10 @@
                     varios
                     negocios ahorren en su infraestructura informática.
                 </p>
-            </li>
-            <li>Ciberseguridad
+            </section>
+            <section id="ciberseguridad">
+                <h2>Ciberseguridad</h2>
+                <img src="img/ciberseguridad.jpeg" alt="Blockchain">
                 <p>
                     Una de las mayores inquietudes en esta era de transformación digital, pues mientras más negocios
                     levantan su infraestructura en linea, algunas de ellas se han vuelto más vulnerables a ataques
@@ -64,17 +93,55 @@
                     algo necesario, donde compañías invierten en infraestructura de seguridad para poder
                     evitar dichos ataques.
                 </p>
-            </li>
-            <li>Realidad aumentada y realidad virtual
+            </section>
+            <section id="arvr">
+                <h2>Realidad aumentada y realidad virtual</h2>
+                <img src="img/rvra.jpg" alt="Blockchain">
                 <p>
                     Actualmente compañías como Meta, buscan crear una mezcla entre estas dos tecnologías para permitir a
                     las personas interactuar a través de lo que llaman el metaverso, buscando entregar experiencias
                     inmersivas a los usuarios, sea para entregar información en tiendas virtuales o prototipos de
                     productos, y así reducir desechos.
                 </p>
-            </li>
-        </ul>
+            </section>
+            <section id="blockchain">
+                <h2>Blockchain</h2>
+                <img src="img/blockchain.jpg" alt="Blockchain">
+                <p>
+                    Blockchain está revolucionando la forma en que se registran y verifican las transacciones. Su
+                    enfoque descentralizado y distribuido, permite que las transacciones se amacenen a través de varias
+                    computadores de manera que los registros no puedan ser alterados, de esta manera asegurar el manejo
+                    correcto de la información.
+                </p>
+            </section>
+            <section id="bigdata">
+                <h2>Big Data</h2>
+                <img src="img/big-data.jpg" alt="Big Data">
+                <p>
+                    El análisis de grandes volúmenes de datos permite a las empresas tomar decisiones más informadas y
+                    estratégicas. Big Data está impulsando avances en áreas como la salud, finanzas, y marketing. En la
+                    actualidad, Big Data ha ayudado a empresas como Netflix a identificar patrones entre los usuarios,
+                    permitiendo predecir que le puede gustar al usuario para que así reciba mejores experiencias al
+                    momento de usar la plataforma.
+                </p>
+            </section>
+            <section id="5g">
+                <h2>5G</h2>
+                <img src="img/5g.jpg" alt="5G">
+                <p>
+                    La tecnología 5G promete una conectividad más rápida y confiable, lo que habilita nuevas
+                    aplicaciones
+                    y mejora las existentes. Su implementación impactará a todo el sector empresarial, pues gracias a
+                    esta mejora ámbitos como la medicina, vehículos autónomos o básicamente cualquier dispositivo
+                    electrónico tenga acceso a una velocidad de transferencia de información lo suficientemente rápida
+                    como para manejar grandes cantidades de información en poco tiempo.
+                </p>
+            </section>
+        </main>
     </section>
+    <footer>
+        &copy; 2024 Impacto de las Tecnologías Web - Juan Ron
+    </footer>
 </body>
 
 </html>

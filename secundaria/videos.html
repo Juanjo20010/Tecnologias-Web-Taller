@@ -1,44 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset='utf-8'>
     <title>Videos</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='../main.css'>
+    <script defer src="../script.js"></script>
 </head>
 
 <body>
+    <nav>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <a href="../index.html"><img src="../img/logo.png" alt="Logo Empresa"></a>
+        <div class="menu" id="menu">
+            <a href="../index.html#ia">Inteligencia Artificial</a>
+            <a href="../index.html#iot">Internet de las Cosas</a>
+            <a href="../index.html#nube">Computación en la Nube</a>
+            <a href="../index.html#ciberseguridad">Ciberseguridad</a>
+            <a href="../index.html#blockchain">Blockchain</a>
+            <a href="../index.html#arvr">Realidad Aumentada y Virtual</a>
+            <a href="../index.html#bigdata">Big Data</a>
+            <a href="../index.html#5g">5G</a>
+            <a href="../secundaria/videos.html">Videos</a>
+            <a href="../secundaria/contacto.html">Contacto</a>
+            <a href="../secundaria/bibliografia.html">Bibliografía</a>
+        </div>
+    </nav>
     <header>
-        <img src="../img/logo.png" alt="Logo Empresa">
-        <h1>Impacto de las Tecnologías Web en la Sociedad y los Negocios</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../secundaria/videos.html">Videos</a></li>
-                <li><a href="../secundaria/contacto.html">Contacto</a></li>
-                <li><a href="../secundaria/bibliografia.html">Bibliografía</a></li>
-            </ul>
-        </nav>
+        <h1>Videos informativos</h1>
     </header>
-    <section>
-        <h1>
-            Videos de referencia
-        </h1>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/TlugxZHqCs8?si=td7czvRe2ykn4mZ1"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/V1iPgn4y-qk?si=FCGvUmFMqcAd19M0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        </div>
+    <main>
+        <section>
+            <h2>¿Cómo la tecnología afecta tu negocio?</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TlugxZHqCs8?si=td7czvRe2ykn4mZ1"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+        <section>
+            <h2>¿Qué son los servicios en la nube?</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/V1iPgn4y-qk?si=FCGvUmFMqcAd19M0"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
         </form>
-    </section>
+    </main>
+    <footer>
+        &copy; 2024 Impacto de las Tecnologías Web - Juan Ron
+    </footer>
 </body>
 
 </html>
